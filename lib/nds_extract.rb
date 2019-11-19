@@ -66,6 +66,7 @@ def movies_with_directors_set(source)
   i = 0
   while i < source.length
     director_name = source[i][:name]
+    director_movies = source[i][:movie]
     directors << {:director_name => director_name}
 
     i += 1
