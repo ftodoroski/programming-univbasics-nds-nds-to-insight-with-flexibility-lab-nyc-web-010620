@@ -56,7 +56,7 @@ def movies_with_director_key(name, movies_collection)
     i += 1
   end
 
-  pp movies_collection
+  movies_collection
 end
 
 
