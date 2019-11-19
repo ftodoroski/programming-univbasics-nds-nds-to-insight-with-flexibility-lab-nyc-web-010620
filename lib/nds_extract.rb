@@ -74,7 +74,6 @@ def movies_with_directors_set(source)
       movie[:director_name] = director_name
       directors << [movie]
 
-
       j += 1
     end
 
