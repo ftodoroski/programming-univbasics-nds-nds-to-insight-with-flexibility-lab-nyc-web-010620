@@ -55,6 +55,7 @@ def gross_per_studio(collection)
     studio = collection[i][:studio]
     revenue = collection[i][:worldwide_gross]
 
+    gross_studio[studio] += revenue
 
 
     i += 1
