@@ -73,7 +73,7 @@ def movies_with_directors_set(source)
       movie = director_movies[j]
 
       movie[:director_name] = director_name
-      p movie
+      movie
       directors << movie
 
 
@@ -83,7 +83,7 @@ def movies_with_directors_set(source)
     i += 1
   end
 
-  directors
+  p directors
 end
 
 # GOAL: For each director, find their :movies Array and stick it in a new Array
