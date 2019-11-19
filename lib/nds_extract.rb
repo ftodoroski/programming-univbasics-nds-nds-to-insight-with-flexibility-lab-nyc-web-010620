@@ -49,11 +49,11 @@ end
 def gross_per_studio(collection)
   gross_studio = Hash.new(0)
 
-  p collection
+
   i = 0
   while i < collection.length
-    # studio = collection[:studio]
-    # p studio
+    studio = collection[i][:studio]
+    p studio
 
 
     i += 1
