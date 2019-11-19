@@ -48,7 +48,7 @@ end
 
 def gross_per_studio(collection)
   gross_studio = Hash.new(0)
-  p collection
+
 
   i = 0
   while i < collection.length
@@ -59,7 +59,7 @@ def gross_per_studio(collection)
     i += 1
   end
 
-  gross_studio
+  p gross_studio
 end
 
 # GOAL: Given an Array of Hashes where each Hash represents a movie,
