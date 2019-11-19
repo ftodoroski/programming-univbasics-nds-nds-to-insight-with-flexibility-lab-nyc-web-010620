@@ -71,6 +71,7 @@ def movies_with_directors_set(source)
     j = 0
     while j < director_movies.length
       movie = director_movies[j]
+      pp movie
 
       j += 1
     end
