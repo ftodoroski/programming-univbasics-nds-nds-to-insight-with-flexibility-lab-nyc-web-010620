@@ -29,7 +29,6 @@ end
 
 
 # Your code after this point
-
 def movies_with_director_key(name, movies_collection)
   i = 0
   while i < movies_collection.length
