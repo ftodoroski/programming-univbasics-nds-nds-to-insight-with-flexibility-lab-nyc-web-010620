@@ -41,7 +41,6 @@ def movies_with_director_key(name, movies_collection)
   movies_collection
 end
 
-
 def gross_per_studio(collection)
   gross_studio = Hash.new(0)
 
